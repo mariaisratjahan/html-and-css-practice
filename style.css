@@ -4,6 +4,9 @@ body{
     padding:0;
     box-sizing: border-box;
 }
+/* section{
+    margin-bottom: 100px;
+} */
 h1{
     font-size: 40px;
 }
@@ -19,7 +22,7 @@ h1{
     color: #fff;
     border-radius: 3px;
 }
-section{
+.flexible-content{
     display: flex;
     /* align-items: center; */
     
@@ -40,9 +43,44 @@ section{
     
 }
 /* dream big section */
+
 #dream-big{
-    background-image:url(./images/bg2.jpg);
+    background-image:url(./images/bg5.jpg);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right center;
     background-size: 400px;
+}
+/* Experience section */
+#experience{
+    background-image: url(./images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 500px;
+    
+
+}
+.experience-heading{
+    /* text-align: center; */
+    font-size: 40px;
+    margin-left: 5%;
+  
+}
+.experience-card{
+    padding:1% 5%;
+    margin:0 5%;
+    width:100%;
+    /* background-color: #e6f7fa; */
+    border-left: 6px solid rgba(23, 129, 168, 0.761);
+    border-radius: 6px;
+   
+    
+}
+.experience-card h2{
+    color: #63cbe4;
+}
+/* footer */
+footer{
+    padding:6% 0 0 0;
+    text-align: center;
+    
 }
